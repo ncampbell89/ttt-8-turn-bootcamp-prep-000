@@ -36,8 +36,7 @@ def turn(board)
   index = input_to_index(user_input)
 
   if valid_move?(board, index) == true
-    index = move(board, index, character)
-    output = capture_puts{ turn(board) }
+    
   else
     #ask for input again until it's valid_move
     #puts "Please enter 1-9:"
